@@ -13,7 +13,7 @@
   <![endif]-->
 
   
-<link rel="stylesheet" href="http://admin.kerns.co/errors/error.css">
-<!--<link rel="stylesheet" href="error.css">-->
+  <!--<link rel="stylesheet" href="http://admin.kerns.co/errors/error.css">-->
+<link rel="stylesheet" href="error.css">
   
 </head>
