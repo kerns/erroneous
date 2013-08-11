@@ -1,0 +1,186 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900,300italic);
+
+@font-face {
+    font-family: 'error';
+    src:url('fonts/error.eot');
+}
+@font-face {
+    font-family: 'error';
+    src: url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAARgAAsAAAAABkQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAABCAAAAUYAAAGYgxq09kZGVE0AAAJQAAAAGgAAABxl49WmR0RFRgAAAmwAAAAdAAAAIAAwAARPUy8yAAACjAAAAEsAAABgL93cQGNtYXAAAALYAAAAOgAAAVLgE/LNaGVhZAAAAxQAAAAuAAAANv15pzFoaGVhAAADRAAAAB4AAAAkBBD/5GhtdHgAAANkAAAADAAAAAwEAAAgbWF4cAAAA3AAAAAGAAAABgADUABuYW1lAAADeAAAANoAAAFuCG+GE3Bvc3QAAARUAAAADAAAACAAAwAAeJw9jk9LAlEUxc9zZnSQYUwZIWHSdaumcJVRVNSirdvAVQsJCgZdtHD6o1DwNi7EZfgBXLcqa1FBi+grtBcECfRl0u29Udqc+Z075917GHQdjLHoke+f+mARMGyKpYjIamJR55bGLT0bR6aYIs7/wYrxY9ESFcPFWcIFFlwESRemy5op6GqHiQQcZKon5X3P8+Rnz/NWwxuzQwC7ZjfQVFaDxcyRLSr6tCVaMXtEeCvViLU7jTTBOt9Qsk5wdppcYY3o6+KVEN2S9P10RdByPaLxxyFXejtTouknwqkK1cOkSdTu1JU0iK31JtwgJLsHBLt4RzSURANFg2J1boddHs5y9Pu+HZXny6XH8L2hmgSyyaWcUv9+oErVQ6/oeU79hxWu/IuMBxPzJz/OG/P60st9zm5KbSrM/tvcEctpbsX/AMujwrsAAHicY2BgYGQAgpOd+YYg+pyusRWMBgA5IQTEAAB4nGNgZGBg4ANiCQYQYGJgBEIQyQLmMQAABGAANQAAAHicY2BmYmCcwMDKwMHow5jGwMDgDqW/MkgytDAwMDGwMjPAgQCCyRCQ5prC4PCA8QMD44P/Dxj0GB8wKDQwMDDCFSgAISMAEGEMIAB4nGNgYGBmgGAZBkYGEPAB8hjBfBYGAyDNAYRMIIkHjB8Y/v9HZikwCjBCdYEBIxsDMndEAgDKiwivAAB4nGNgZGBgAGJv3nq1eH6brwzcTAwgcE7X2ApB/3/AxMD4AMjlYABLAwDc3AhIAAB4nGNgZGBgfPD/AYMeEwMDwz8GIAkUQQHMAG3nA/YAAAIAAAAAAAAAAgAAIAAAUAAAAwAAeJxtjjFuAjEQRd/CLhFJlCJFaidlpF2tNw2iTMEBKOgprBUSWksG7kGViopj5AAcgBPl21hKkXg0mjdff2YMPPJFQXwFlbobj7jjLfOYV4bMpTynzBUPfGeeqLvKWZRTKfdpKvKIJ54zj/nkPXMpzzFzxQvnzBPpFxxB4ZW4ELzKUlrPgS3rqC5df9iuBQu5BvapBjkcho6GVnWu/N10662iZqbs5LF8aIUf9gsfeme6pjVzky6qWlvP6q61svz9zyppOzbpftwbb7JyYbfxg7FN+8/UD8hXMuUAAHicY2BmwAsAAH0ABA==) format('woff'),
+         url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAANAIAAAwBQRkZUTWXj1aYAAAVkAAAAHEdERUYAMgAGAAAFRAAAACBPUy8yL7vcHwAAAVgAAABWY21hcOAV89QAAAHEAAABUmdhc3D//wADAAAFPAAAAAhnbHlm2rLfzgAAAyQAAABsaGVhZP15pzEAAADcAAAANmhoZWEEEP/mAAABFAAAACRobXR4BKoAIAAAAbAAAAAUbG9jYQAOADYAAAMYAAAADG1heHAASAAbAAABOAAAACBuYW1lCG+GEwAAA5AAAAFucG9zdJtVPjgAAAUAAAAAPAABAAAAAQAAuteSMl8PPPUACwIAAAAAAM4tMzoAAAAAzi0zOgAA/+ACAAHgAAAACAACAAAAAAAAAAEAAAHg/+AALgIAAAD+AAIAAAEAAAAAAAAAAAAAAAAAAAAFAAEAAAAFABgAAQAAAAAAAgAAAAEAAQAAAEAAAAAAAAAAAQIAAZAABQAIAUwBZgAAAEcBTAFmAAAA9QAZAIQAAAIABQMAAAAAAAAAAAAAEAAAAAAAAAAAAAAAUGZFZABA4AHwAAHg/+AALgHgACCAAAABAAAAAAAAAgAAAAAAAAAAqgAAAAAAAAIAACAAAAADAAAAAwAAABwAAQAAAAAATAADAAEAAAAcAAQAMAAAAAgACAACAAAAAOAB8AD//wAAAADgAfAA//8AACADEAMAAQAAAAAAAAAAAAABBgAAAQAAAAAAAAABAgAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgA2AAEAAP/gAgAB4AACAAARASECAP4AAeD+AAAAAAABACAAIAHgAaAAFwAAEwcGFB8BFjI2NC8BITI2NCYjITc2NCYiyaAJCaAKGhMJagEzDRMTDf7NagkTGgGXoAoaCqAJExoKaRMaE2kKGhMAAAAADACWAAEAAAAAAAEABQAMAAEAAAAAAAIABwAiAAEAAAAAAAMAIQBuAAEAAAAAAAQABQCcAAEAAAAAAAUACwC6AAEAAAAAAAYABQDSAAMAAQQJAAEACgAAAAMAAQQJAAIADgASAAMAAQQJAAMAQgAqAAMAAQQJAAQACgCQAAMAAQQJAAUAFgCiAAMAAQQJAAYACgDGAGUAcgByAG8AcgAAZXJyb3IAAFIAZQBnAHUAbABhAHIAAFJlZ3VsYXIAAEYAbwBuAHQARgBvAHIAZwBlACAAMgAuADAAIAA6ACAAZQByAHIAbwByACAAOgAgADEAMQAtADgALQAyADAAMQAzAABGb250Rm9yZ2UgMi4wIDogZXJyb3IgOiAxMS04LTIwMTMAAGUAcgByAG8AcgAAZXJyb3IAAFYAZQByAHMAaQBvAG4AIAAxAC4AMAAAVmVyc2lvbiAxLjAAAGUAcgByAG8AcgAAZXJyb3IAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAQACAQIBAwd1bmlGMDAwB3VuaUUwMDEAAAAB//8AAgABAAAADgAAABgAAAAAAAIAAQADAAQAAQAEAAAAAgAAAAAAAQAAAADJiW8xAAAAAM4tMzoAAAAAzi0zOg==) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-size: 1.25em;
+    line-height: 1.3em;
+    background-color: #eee;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#main {
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+}
+
+article {
+    max-width: 40em;
+    padding: 1em;
+}
+
+p, h1, h2, h3, li, footer {
+    color: #555;
+}
+
+ul {
+    margin-bottom: 4em;
+}
+
+ul li {
+    margin-bottom: .5em;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+h1 em {
+    display: block;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h1 em span {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #5057A1
+}
+
+a:hover {
+    color: #000;
+}
+
+code {
+    padding: 2px 6px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    border-top: 1px solid #BBB;
+}
+
+
+p {
+    color: #999;
+}
+
+
+p a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p a :link {
+    color: #2795b6;
+    transition: all .3s ease-out;
+}
+
+p a:visited {
+    color: #2795b6;
+}
+
+p a:hover {
+    color: #3bb1d5;
+ }
+
+p a:active {
+    color: #3bb1d5;
+    transition: none;
+ }
+
+
+.btn {
+  border: 0 none;
+  color: white;
+  cursor: pointer;
+  border-radius: .25em;
+  display: inline-block;
+  display: -moz-inline-stack;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *display: inline;
+
+  margin: 0;
+  outline: 0 none;
+  text-decoration: none;
+  line-height: inherit;
+  padding: 0.675em .725em;
+  margin-bottom: 0em;
+  zoom: 1;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.back.btn {
+  background: #2795b6;
+}
+
+.back.btn:hover {
+  background: #3bb1d5;
+}
+
+
+.btn:before {
+    font-family: 'error';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: .75;
+    display: inline-block;
+    margin-right: .25em;
+    -webkit-font-smoothing: antialiased;
+    content: "\e001";
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+        font-size: 76.5%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+ }
