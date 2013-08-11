@@ -1,4 +1,4 @@
-errors
+Erroneous
 ======
 
-Better apache error messages
+Better Apache error messages.
