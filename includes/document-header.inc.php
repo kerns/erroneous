@@ -12,6 +12,6 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
   <![endif]-->
 
-  <link rel="stylesheet" href="error.css">
+  <link rel="stylesheet" href="/errors/error.css">
   
 </head>
