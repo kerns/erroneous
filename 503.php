@@ -21,7 +21,7 @@ include ("includes/document-header.inc.php");
 				There might also be a configuration or cloud infrastructure error.
 			</li>
 			<li>
-				Whatever the case, <b>we've been alerted and the problem and are working to fix it.</b>
+				Whatever the case, <b>we've been alerted of the problem and are working to fix it.</b>
 			</li>
 		</ul>
 
