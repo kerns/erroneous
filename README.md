@@ -3,6 +3,8 @@ Erroneous
 
 Better Apache error messages.
 
+![503 Preview Image](https://raw.github.com/Stratos42/erroneous/master/screenshot.jpg)
+
 ## Configuration
 
 By default, a mail is send with each 5xx error.
