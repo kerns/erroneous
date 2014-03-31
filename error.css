@@ -14,6 +14,9 @@
 
 body, html {
     height: 100%;
+    -moz-box-shadow: inset 0 0 5em #dadada;
+    -webkit-box-shadow: inset 0 0 5em #dadada;
+    box-shadow: inset 0 0 5em #dadada;
 }
 
 body {
