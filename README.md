@@ -1,18 +1,19 @@
 Erroneous
 ======
 
-Better Apache error messages.
+For Better Apache Error Messages.
 
 ![503 Preview Image](https://raw.github.com/Stratos42/erroneous/master/screenshot.jpg)
 
 ## Configuration
 
-By default, a mail is send with each 5xx error.
-For change or disable this, modify include/error-footer.inc.php
+There is an option to send an email with each 5xx error.
+This wisdom of this depends largely on your traffic and love of email.
+To change or disable this modify include/error-footer.inc.php
 
 ## Apache
 
-Just copy the directory erroneous in /usr/share/apache2/ and configure apache.
+Just copy the directory erroneous into /usr/share/apache2/ and configure as follows:
 
 
 	Alias /error/ "/usr/share/apache2/erroneous/"
