@@ -1,7 +1,7 @@
 Erroneous
 ======
 
-For Better Apache Error Messages.
+For better Apache error messages.
 
 ![503 Preview Image](https://raw.github.com/Stratos42/erroneous/master/screenshot.jpg)
 
