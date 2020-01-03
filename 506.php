@@ -1,6 +1,6 @@
 <?php
-$error_code="500";
-$error_message="Internal Server Error";
+$error_code="506";
+$error_message="Variant also varies";
 include ("includes/document-header.inc.php");
 ?>
 
@@ -15,10 +15,13 @@ include ("includes/document-header.inc.php");
 		<h3>Sorry, something is wrong.</h3>
 		<ul>
 			<li>
-				This page became very popular very quickly, and it's causing problems.
+                          A variant for the requested entity is itself a negotiable resource.
 			</li>
+                        <li>
+                          Access not possible.
+                        </li>
 			<li>
-				There might also be a configuration or cloud infrastructure error.
+				This page became very popular very quickly, and it's causing problems.
 			</li>
 			<li>
 				Whatever the case, <b>we've been alerted of the problem and are working to fix it.</b>
